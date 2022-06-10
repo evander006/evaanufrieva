@@ -1,0 +1,104 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 105%;
+        vertical-align: baseline;
+        font-family: Georgia;
+
+    }
+    body {
+        font-family: Verdana, Arial, sans-serif;
+        background-color: #fff;
+    }
+    #header {
+        background-color: #D4E7EE;
+    }
+    #header h1 {
+        font-size: 24px;
+        padding: 25px 25px 25px 10px;
+        font-weight: bold;
+        text-transform:  uppercase;
+        clear: both;
+        text-align: center;
+    }
+    #nav ul {
+        background: #D4E7EE;
+        overflow: hidden;
+        padding: 0;
+    }
+    #nav li {
+        float: left;
+        display: inline;
+    }
+    #nav a {
+        display: block;
+        padding: 1em;
+        border-right: 1px solid #ADC0CE;
+        background: rgba(173, 192, 206, .3);
+        color: #29838C;
+    }
+    #nav a:hover {
+        background: #ADC0CE;
+    }
+
+    #quoteR {
+        font-size: 16px;
+        float: right;
+        width: 355px;
+        padding: 10px;
+        border-left: 1px dashed grey;
+        border-bottom: 1px dashed grey;
+    }
+    #youtube {
+        padding-top: 70px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #youtube h1 {
+        color: red;
+        font-size: 40px;
+    }
+    .wrapper .quotes p{
+        background-color: #D4E7EE;
+        padding:5px;
+    }
+    .quotes p{
+        display: inline-block;
+        padding:10px;
+        text-align: center;
+        position: relative;
+        left: 25px;
+        font-size: 18px;
+    }
+    .quotes #f {
+        position: relative;
+        left:5px;
+    }
+    .quotes #s {
+        position: relative;
+        left:15px;
+    }
+    .quotes #th {
+        position: relative;
+        left:25px;
+    }
+    .egypt {
+        float: left;
+        width:450px;
+        padding:28px;
+        border-right:1px dashed grey;
+        border-bottom:1px dashed grey;
+    }
+    #header h1, #nav ul, .wrapper, #footer p {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+    .wrapper, #nav, #header, #footer {
+        min-width: 768px;
+    }
+</style>
